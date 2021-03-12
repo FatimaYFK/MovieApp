@@ -24,13 +24,14 @@ class MainActivity : AppCompatActivity() {
         movie.actors = "Actors:"
         movie.description = "Story"
         movie.genres = "Drama, Sport"
-        movie.rating
+        movie.rating = 4.5F
         binding.movie = movie
 
 
 
 
-      val cookies: FloatingActionButton = findViewById(R.id.floatingActionButton2)
+
+      val cookies: FloatingActionButton = findViewById(R.id.floatingActionButton)
         cookies.setOnClickListener { cookie() }
 
     }
