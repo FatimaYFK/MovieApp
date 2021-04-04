@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         // Source: https://www.youtube.com/watch?v=m1RV0HPuBWo
         drawerLayout = findViewById(R.id.drawer_layout) as DrawerLayout
         navigationView = findViewById(R.id.nav_view) as NavigationView
-        tool = findViewById(R.id.toolbar) as Toolbar
+        tool = findViewById(R.id.mytool) as Toolbar
 
         // Source: https://guides.codepath.com/android/using-the-app-toolbar
         tool.setTitle("MainActivity")
