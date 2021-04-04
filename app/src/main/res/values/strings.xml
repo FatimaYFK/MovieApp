@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">MovieApp1</string>
     <string name="gumbet">TODO</string>
     <string name="button">TODO</string>
@@ -7,9 +7,23 @@
     <string name="drama_sport">Drama, Sport</string>
     <string name="FloatingButton">Button message</string>
     <string name="actors">Actors:</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+
     <string name="anya_taylor_joy_chloe_pirrie">Anya Taylor-Joy, Chloe Pirrie</string>
     <string name="story">Story</string>
     <string name="when_she_is_sent_to_an_orphanage_at_the_age_of_eight_beth_harmon_soon_discovers_two_ways_to_escape_her_surroundings_albeit_fleetingly_playing_chess_and_taking_the_little_green_pills_given_to_her_and_the_other_children_to_keep_them_subdued_before_long_it_becomes_apparent_that_hers_is_a_prodigious_talent_and_as_she_progresses_to_the_top_of_the_us_chess_rankings_she_is_able_to_forge_a_new_life_for_herself_but_she_can_never_quite_overcome_her_urge_to_self_destruct_for_beth_there_s_more_at_stake_than_merely_winning_and_losing">When she is sent to an orphanage at the age of eight, Beth Harmon soon discovers two ways to escape her surroundings, albeit fleetingly: playing chess and taking the little green pills given to her and the other children to keep them subdued. Before long, it becomes apparent that hers is a prodigious talent, and as she progresses to the top of the US chess rankings she is able to forge a new life for herself. But she can never quite overcome her urge to self-destruct. For Beth, there\'s more at stake than merely winning and losing.</string>
     <string name="scott_frank_alan_scott">Scott Frank, Alan Scott</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="welcome_to_movieapp">Welcome to MovieApp</string>
     <string name="todo">TODO</string>
+    <string name="see_detail">see Details</string>
+    <string name="authors">Author</string>
+    <string name="options">option</string>
+    <string name="movies">movie</string>
+    <string name="detail">detail</string>
+    <string name="favorites">favorite</string>
+
 </resources>

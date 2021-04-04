@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <color android:name="purple_200">#928D97</color>
+    <color android:name="purple_500">#605D65</color>
+    <color android:name="purple_700">#262529</color>
+    <color android:name="teal_200">#FFEB3B</color>
+    <color android:name="teal_700">#FFC107</color>
+    <color android:name="black">#FF000000</color>
+    <color android:name="white">#FFFFFFFF</color>
+    <color android:name="yellow">#FFF0CA30</color>
+
+
+</selector>
