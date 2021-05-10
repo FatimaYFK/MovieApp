@@ -19,6 +19,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         Log.i("MainActivity", "I am in onCreate")
 
+        //hello world
+
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
 
         drawerLayout = binding.drawerLayout
