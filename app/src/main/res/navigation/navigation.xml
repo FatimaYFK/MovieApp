@@ -30,23 +30,31 @@
 
     <fragment
         android:id="@+id/watchlistFragment"
-        android:name="com.example.mad03_fragments_and_navigation.WatchlistFragment"
+        android:name="com.example.mad03_fragments_and_navigation.FavoritesFragment"
         android:label="@string/my_watchlist"
-        tools:layout="@layout/fragment_watchlist" />
+        tools:layout="@layout/fragment_favorites" />
     <fragment
         android:id="@+id/quizFragment"
         android:name="com.example.mad03_fragments_and_navigation.QuizFragment"
-        tools:layout="@layout/fragment_quiz"
-        android:label="QuizFragment" >
+        android:label="Moviequiz"
+        tools:layout="@layout/fragment_quiz">
         <action
             android:id="@+id/action_quizFragment_to_quizEndFragment"
-            app:destination="@id/quizEndFragment" />
+            app:destination="@id/quizEndFragment"
+            app:popUpTo="@id/homeFragment"
+            app:popUpToInclusive="false" />
     </fragment>
     <fragment
         android:id="@+id/quizEndFragment"
         android:name="com.example.mad03_fragments_and_navigation.QuizEndFragment"
-        tools:layout="@layout/fragment_quiz_end"
-        android:label="QuizEndFragment" >
+        android:label="Moviequiz"
+        tools:layout="@layout/fragment_quiz_end">
+        <argument
+            android:name="score"
+            app:argType="integer" />
+        <argument
+            android:name="sum"
+            app:argType="integer" />
         <action
             android:id="@+id/action_quizEndFragment_to_quizFragment"
             app:destination="@id/quizFragment" />

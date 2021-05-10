@@ -2,8 +2,8 @@ package com.example.mad03_fragments_and_navigation
 
 import android.os.Bundle
 import android.view.*
-import androidx.fragment.app.Fragment
 import androidx.databinding.DataBindingUtil
+import androidx.fragment.app.Fragment
 import androidx.navigation.findNavController
 import androidx.navigation.ui.NavigationUI
 import com.example.mad03_fragments_and_navigation.adapters.MovieListAdapter

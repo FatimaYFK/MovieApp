@@ -17,6 +17,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        Log.i("MainActivity", "I am in onCreate")
 
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
 
@@ -28,9 +29,7 @@ class MainActivity : AppCompatActivity() {
         NavigationUI.setupActionBarWithNavController(this, navController, drawerLayout)
 
         NavigationUI.setupWithNavController(binding.navView, navController)
-        Log.i("MainActivity", "I am in onCreate")
     }
-
 
     override fun onSupportNavigateUp(): Boolean {
         return NavigationUI.navigateUp(navController, drawerLayout)
@@ -41,4 +40,28 @@ class MainActivity : AppCompatActivity() {
         Log.i("MainActivity", "I am in onStart")
     }
 
+    override fun onPause() {
+        super.onPause()
+        Log.i("MainActivity", "I am in onPause")
+    }
+
+    override fun onResume() {
+        Log.i("MainActivity", "I am in onResume")
+        super.onResume()
+    }
+
+    override fun onDestroy() {
+        Log.i("MainActivity", "I am in onDestroy")
+        super.onDestroy()
+    }
+
+    override fun onStop() {
+        Log.i("MainActivity", "I am in onStop")
+        super.onStop()
+    }
+
+    override fun onRestart() {
+        Log.i("MainActivity", "I am in onRestart")
+        super.onRestart()
+    }
 }
