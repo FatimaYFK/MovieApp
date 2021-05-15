@@ -31,6 +31,8 @@ class QuizViewModel: ViewModel() {
         _score.value = 0
     }
 
+    // NEW
+
     private fun updateIndex(){
         indexToShow.value = index + 1
     }
